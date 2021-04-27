@@ -40,13 +40,17 @@ def pares_consonantes():
     print(' El numero de pares es: ', contador)  
 
 
-def pi():
-    anida='pi'
-    pass           
+def contar_letra_en_frase():
+    contador=0
+    for i in txt:
+        if(i.isalpha()):
+            contador+=1 
+    print(' La cantidad de letras es: ', contador)            
 
 
 
 leer_frase()
+contar_letra_en_frase()
 contar_consonantes()
 pares_consonantes()
 separar_palabras()
