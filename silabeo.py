@@ -13,10 +13,10 @@ dictSilabas = {
     'semivocles': ['y']
 }
 
-diptongos = [(dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas),
-             (dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas),
-             (dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas)]
-triptongos = dictSilabas.vocales_cerradas+dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas
+#diptongos = [(dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas),
+#             (dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas),
+#             (dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas)]
+#triptongos = dictSilabas.vocales_cerradas+dictSilabas.vocales_abiertas + dictSilabas.vocales_cerradas
 pares_consonantes=[pares_consonantes=['bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'tl', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'tr', 'ch', 'll', 'rr']
 ]
 
